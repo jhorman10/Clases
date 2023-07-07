@@ -127,23 +127,19 @@ function restaDosNumeros(a = 0, b = 0) {
 
 function calcular(){
 
-  // let nuevoNumero1 = Number(numero1.value);
-  // let nuevoNumero2 = Number(numero2.value);
+  let nuevoNumero1 = Number(numero1.value);
+  let nuevoNumero2 = Number(numero2.value);
 
-  // pResultado.innerText = restaDosNumeros(nuevoNumero1, nuevoNumero2);
-  nombreArr.push(nuevoNumero1);
-  //aqui inhabilito boton
+  pResultado.innerText = restaDosNumeros(nuevoNumero1, nuevoNumero2);
+  // nombreArr.push(nuevoNumero1);
+  // aqui inhabilito boton
 }
-
-let lemon = 'lemon'
-
-lemon = null;
 
 /**
  * vamos a agregar valores desde el formulario a un arreglo
  * 
  * 1. el formulario
- * 2. al hacer click en el boton el formulario se debe limpiar
+ * 2. al hacer click en el boton agregar el formulario se debe limpiar
  * 3. ir visualizando el arreglo
  * 4. validar que el valor sea del mismo tipo del arreglo
  * 
